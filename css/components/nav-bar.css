@@ -46,12 +46,6 @@
   animation: notificationAnimation 2s ease-in-out infinite;
 }
 
-.badge {
-  font-weight: 600;
-  display: flex;
-  padding-top: 3px;
-}
-
 @keyframes appearBtnAnimation {
   from {
     transform: translateY(50px);

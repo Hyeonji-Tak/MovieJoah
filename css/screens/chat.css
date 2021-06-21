@@ -158,16 +158,6 @@
   opacity: 0.5;
 }
 
-.reply:focus-within .reply__column:first-child {
-  opacity: 0;
-  visibility: hidden;
-}
-
-.reply:focus-within .fa-grin-wink,
-.reply:focus-within button {
-  opacity: 0;
-}
-
 @keyframes messageAni1 {
   from {
     transform: translateX(-130px);

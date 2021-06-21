@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+    <title>Chat- Kokoa Clone</title>
+</head>
+<body id="chat-screen">
+    <div id="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>11%</span>
+            <i class="fas fa-battery-three-quarters"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html"><i class="fas fa-angle-left fa-3x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Elio</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-2x"></i></span>
+            <span><i class="fas fa-bars fa-2x"></i></span>
+        </div>
+    </header>
+
+
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Monday, June 21, 2021
+        </div>
+
+        <div class="message-row">
+            <img src="https://pyxis.nymag.com/v1/imgs/730/809/f7dffc8d5d8292bd45b46d8bd002ee55db-31-call-me-by-your-name-1.rsquare.w700.jpg" />
+            <div class="message-row__content">
+                <span class="message__author">Elio</span>
+                <div class="message__info">
+                    <span class="message__bubble">Hi!</span>
+                    <span class="message__time">17:02</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">Hi Elio!</span>
+                    <span class="message__time"></span>
+                </div>
+                <div class="message__info">
+                    <span class="message__bubble">Did you hear about Oliver?</span>
+                    <span class="message__time">17:21</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..." />
+            <i class="far fa-grin-wink"></i>
+            <button><i class="fas fa-arrow-up"></i></button>
+        </div>
+    </form>
+
+    <div id="no-mobile">
+        Your screen is too big!
+    </div>
+
+</body>
+</html>
